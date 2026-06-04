@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice - LocalBiz Connect</title>
+    <link rel="stylesheet" href="wrongstyles.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="logo">LocalBiz Connect</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="page-title">
+    <h1>Form Practice</h1>
+    <p>Learn how HTML forms collect user information.</p>
+</section>
+
+<section class="form-box">
+
+    <form>
+
+        <label for="studentName">Student Name</label>
+        <input id="studentName" type="text" placeholder="Enter your name">
+
+        <label for="studentEmail">Email Address</label>
+        <input id="studentEmail" type="email" placeholder="Enter your email">
+
+        <label for="studentPhone">Phone Number</label>
+        <input id="studentPhone" type="tel" placeholder="Enter your phone number">
+
+        <label for="course">Select Interested Course</label>
+        <select id="course">
+            <option value="">Choose one option</option>
+            <option>Frontend Development</option>
+            <option>Backend Development</option>
+            <option>Full Stack Development</option>
+            <option>AI Tools</option>
+        </select>
+
+        <label for="mode">Preferred Learning Mode</label>
+        <select id="mode">
+            <option value="">Choose learning mode</option>
+            <option>Offline</option>
+            <option>Online</option>
+            <option>Hybrid</option>
+        </select>
+
+        <label for="message">Why do you want to join?</label>
+        <textarea id="message" placeholder="Write your answer here"></textarea>
+
+        <button type="submit" class="primary-btn">Submit Practice Form</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>Form Practice Page - LocalBiz Connect</p>
+</footer>
+
+</body>
+</html>
