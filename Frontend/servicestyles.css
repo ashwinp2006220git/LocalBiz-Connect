@@ -28,7 +28,7 @@ table { width: 100%; border-collapse: collapse; margin-top: 15px; }
 th, td { text-align: left; border-bottom: 1px solid #d1d5db; padding: 12px; }
 th { background: #e3f2fd; color: #123c69; }
 .stat-number { font-size: 32px; font-weight: bold; color: #2563eb; }
-footer { text-align: center; padding: 18px; background: #e5e7eb; color: #4b5563; margin-top: 20%; }
+footer { text-align: center; padding: 18px; background: #e5e7eb; color: #4b5563; }
 @media (max-width: 768px) { .topbar { flex-direction: column; gap: 12px; text-align: center; } nav a { display: inline-block; margin: 5px 8px; } .grid, .features, .dashboard-grid { grid-template-columns: 1fr; padding: 20px; } .hero h1 { font-size: 28px; } .form-box { margin: 20px; } .page-content { padding: 20px; } }
 
 .form-box {
@@ -72,6 +72,7 @@ margin:30px auto;
     padding: 24px;
     border-radius: 12px;
     margin-bottom: 20px;
+    border: 1px solid  #d1d5db;
 }
 .grid1{
     display: grid;
@@ -84,9 +85,40 @@ margin:30px auto;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
-    border: 1px solid;
+    border: 1px solid ;
 }
 .ash{
     text-decoration: none;
     color:white;
 }
+.minicard2{
+    background:white;
+    color: #123c69;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #d1d5db;
+    margin: 10px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid: 15px;
+}
+.card2{
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:1px solid #d1d5db; ;
+}
+.card2 h3 { color: #123c69; margin-top: 0; }
+.minicard2 h2{color:#2563eb}
+.container2 h1{margin-left: 10px;color: #123c69;}
+.container2 p{margin-left: 10px;}
+.grid2 h4{color: #123c69;background-color: lightblue;}
+.box{margin-left: 10px;margin-right: 10px;}
+.table th{background-color: lightskyblue;}
