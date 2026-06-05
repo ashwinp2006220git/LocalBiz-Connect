@@ -7,7 +7,7 @@ app = Flask(
     static_url_path=""
 )
  
-
+ 
 @app.route("/")
 @app.route("/index.html")
 def home():
