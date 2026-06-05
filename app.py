@@ -6,7 +6,7 @@ app = Flask(
     static_folder="frontend",
     static_url_path=""
 )
-
+ 
 
 @app.route("/")
 @app.route("/index.html")
