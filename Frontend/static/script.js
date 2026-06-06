@@ -13,6 +13,6 @@ function submitEnquiry(event){
         formMessage.style.color="red";
         return;
     }
-    formMessage.textContent = "Thank you, " + name + "! Your enquiry has been recorded for the Day 2 demo.";
+    formMessage.textContent = "Thank you, " + name + "!";
     formMessage.style.color = "#123c69";
 }

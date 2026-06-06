@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}index - LocalBiz Connect{% endblock %}
+
+{% block content %}
+
+<main class="container1">
+    <section class="card1">
+        <h2>Welcome to LocalBizConnect</h2>
+        <p>Connecting local businesses with talented students and digital solutions.</p>
+    </section>
+
+    <section class="grid1">
+        <div class="minicard1">App Development</div>
+        <div class="minicard1">Digital Marketing</div>
+        <div class="minicard1">IT Support</div>
+        <div class="minicard1">Website Design</div>
+    </section>
+
+    <a class="ash" href="{{ url_for('contact') }}">Contact Us</a>
+
+    <p id="Message"></p>
+</main>
+
+{% endblock %}
+
+{% block footer %}
+LocalBiz Connect - Flask + SQLite Version
+{% endblock %}
